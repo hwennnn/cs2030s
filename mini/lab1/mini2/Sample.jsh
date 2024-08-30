@@ -10,5 +10,5 @@ pr.register(manager);
 pr.register(fulltime);
 pr.register(intern);
 
-pr
-pr.getTotalSalary()
+// pr
+// pr.getTotalSalary()

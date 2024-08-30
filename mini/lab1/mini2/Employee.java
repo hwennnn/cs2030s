@@ -1,14 +1,4 @@
 abstract class Employee {
-  /**
-   * Different types of employees.
-   */
-  public static final int MANAGER = 1;
-  public static final int FULLTIME = 2;
-  public static final int INTERN = 3;
-
-  /**
-   * Employee id.
-   */
   public static int lastId = 0;
   private final int id;
  
