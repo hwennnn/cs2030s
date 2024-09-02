@@ -1,7 +1,7 @@
 class Manager extends Employee {
   private int monthlySalary;
 
-  public Manager(int employeeType, int monthlySalary) {
+  public Manager(int monthlySalary) {
     this.monthlySalary = monthlySalary;
   }
   

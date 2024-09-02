@@ -4,7 +4,7 @@ class Intern extends Employee {
   private int clockedHours;
   private int hourlyRate;
 
-  public Intern(int employeeType, int overtimeHours, int overtimeRate, int clockedHours, int hourlyRate) {
+  public Intern(int overtimeHours, int overtimeRate, int clockedHours, int hourlyRate) {
     this.overtimeHours = overtimeHours;
     this.overtimeRate = overtimeRate;
     this.clockedHours = clockedHours;

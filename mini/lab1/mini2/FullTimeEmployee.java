@@ -3,7 +3,7 @@ class FullTimeEmployee extends Employee {
   private int overtimeHours;
   private int overtimeRate;
 
-  public FullTimeEmployee(int employeeType, int monthlySalary, int overtimeHours, int overtimeRate) {
+  public FullTimeEmployee(int monthlySalary, int overtimeHours, int overtimeRate) {
     this.monthlySalary = monthlySalary;
     this.overtimeHours = overtimeHours;
     this.overtimeRate = overtimeRate;
